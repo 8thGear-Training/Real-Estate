@@ -43,3 +43,15 @@ footer{
     margin-bottom: 40px;
     position: relative;
 }
+.Email-ID{
+    width: fit-content;
+    border-bottom: 1px, solid black;
+    margin: 20px 0;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a {
+    text-decoration: none;
+}
