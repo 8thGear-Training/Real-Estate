@@ -1,0 +1,258 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* hero styling */
+.hero-container{
+    background: url(../Real-Estate/Images/house-isolated-field\ 1.png) center/cover;
+    width: 700px;
+    height: 500px;
+    margin: 50px auto 20px;
+}
+.overlay{
+    background: linear-gradient(180deg, #2C3691 0%, rgba(44, 54, 145, 0) 100%);
+}
+.overlay h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.overlay-inner{
+    padding: 8rem;
+    text-align: center;
+}
+.hero-btn{
+    background-color: #55800F;
+    border: #fff;
+    cursor: pointer;
+    font-weight: 200;
+    padding: 0.3rem 0.7rem;
+    margin-top: 0.3rem;
+}
+.hero-btn:hover{
+transform: scale(1.1);
+}   
+.hero-btn a{
+    color: #fff;
+    text-decoration: none;
+
+}
+/* about styling */
+.about{
+    padding: 2rem;
+}
+.about h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about-info{
+    display: flex;
+    width: 600px;
+    margin: auto;
+}
+.about-para p{
+    font-size: 0.7rem;
+    margin-right: 10rem;
+}
+.about-img{
+    display: block;
+    border-radius: 30px;
+    border-right: 7px solid rgb(187, 182, 182);
+    width: 200px;
+    object-fit: cover;
+}
+.about-btn{
+    background-color: #55800F;
+    border: #fff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: lighter;
+    padding: 0.3rem 0.7rem;
+    margin-top: 2rem;
+}
+.about-btn:hover{
+    transform: scale(1.1);
+} 
+.about-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Way to rent styling */
+.rent{
+    margin-top: 2rem;
+}
+.rent h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.way-to-rent{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    max-width: 80%;
+    margin: 3rem auto;
+}
+.rent-info-container{
+    margin-top: 1rem;
+}
+.rent-info{
+    background-color: #55800F;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    width: 200px;
+}
+.rent-info h3{
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+.rent-info p{
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+.rent-img-container{
+    background-color: #2C3690;
+    width: 250px;
+}
+.rent-img{
+    display: block;
+    width:200px;
+    height: 200px;
+    margin: 25px auto;
+}
+/* featured property styling */
+.featured-property-section h3{
+    margin: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.featured-property-container{
+    background-color: #2C3690;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+.featured-property{
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 260px;
+    padding: 1rem;
+}
+.featured-property:hover{
+    transform: translateY(-10px);
+}
+.featured-property small{
+    margin-left: 1rem;
+}
+.featured-property::before{
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #2AE2EE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: 1rem;
+    top: 1rem;
+    z-index: 0;
+}
+.featured-property .property-img{
+    display: block;
+    border-radius: 20px;
+    width: 200px;
+    height: 130px;
+    margin: 1rem auto;
+}
+.property-name{
+    margin: 0.3rem 1.7rem;
+    z-index: 1;
+}
+button.featured-btn{
+    background-color: transparent;
+    border-radius: 0.5rem;
+    display: block;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+    margin: 2.5rem  auto 0.7rem;
+    outline: none;
+    border: 1px solid black;
+}
+button.featured-btn:hover{
+    transform: scale(1.1);
+}
+button.featured-btn a{
+    color: black;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+/* Testimonial Styling */
+.testimonial h3{
+    margin: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.testimonial-img{
+    width: 300px;
+    height: 300px;
+    margin-top: 1.5rem;
+}
+.testimonial-container{
+    display: flex;
+    background-color: #2C3690;
+    max-width: 80%;
+    margin: auto;
+}
+.testimonial-card-container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.testimonial-card{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 200px;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+.testimonial-card h5{
+    font-weight: bolder;
+    margin-bottom: 0.7rem;
+}
+.testimonial-card p{
+    font-size: 0.8rem;
+}
+.testimonial-card-2{
+    margin-top: 5rem;
+}
+.testimonial-card-3{
+    margin-top: 10rem;
+}
+.testimony-name{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+/* @media (max-width: 375px) {
+    .about-info{
+        flex-direction: column;
+        padding: 1rem;
+        width: 600px;
+        margin: auto;
+    }
+
+} */
